@@ -1,0 +1,277 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f1f0eb; 
+}
+.box {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #d3d3d3; 
+    text-align: center;
+    background-color: #f7f6ef; 
+}
+.box img {
+    max-width: 100%;
+    height: auto;
+}
+.image-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #d8c7b2; 
+}
+.image-container img {
+    max-width: 90%;
+    height: auto;
+    margin: 20px;
+}
+.divider {
+    margin: 20px 0;
+    border-top: 2px solid #6b2e2e; 
+    width: 100%;
+}
+.newsletter-box {
+    width: auto;
+    padding: 20px;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    margin: 20px;
+    background-color: #f7f6ef; 
+}
+.newsletter-box input[type="text"],
+.newsletter-box input[type="email"] {
+    width: 20%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.name-fields {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+.name-fields input[type="text"] {
+    width: 20%;
+}
+.newsletter-box button {
+    width: 20%;
+    padding: 10px 20px;
+    background-color: #6b2e2e; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.newsletter-box button:hover {
+    background-color: #553b39; 
+}
+
+/* Overskrift og billede */
+.title-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    gap: 20px;
+    background-color: #f1f0eb; 
+}
+
+.text-block {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6b2e2e; 
+}
+
+.ord {
+    font-size: 36px;
+    color: #6b2e2e; 
+}
+
+.image-placeholder img {
+    width: 600px;
+    height: auto;
+}
+
+/* Hovede */
+.hovede {
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/The_logo.png);
+    background-color: #f7f6ef; 
+    
+}
+
+.hovede2 {
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/The_logo.png); 
+}
+
+a {
+    color: #000000; 
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6b2e2e; 
+}
+
+/* Header/menu bar */
+header {
+    background: #d8c7b2; 
+    box-shadow: 0 5px 10px #40404075;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    margin-bottom: 25px;
+}
+
+#headlogo {
+    width: 100px;
+    margin-left: 20px;
+}
+
+header .logo {
+    height: 10px;
+    margin-left: 20px
+}
+
+header .navbar ul {
+    list-style: none;
+}
+
+header .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+header .navbar ul li a {
+    text-decoration: none;
+    font-size: 23px;
+    padding: 18px;
+    color: #6b2e2e; 
+    display: block; 
+}
+
+header .navbar ul li a:hover {
+    background: #c89b7b; 
+    color: #fff;
+}
+
+header .navbar ul li ul {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background: #d0b8a7;
+    display: none;
+}
+
+header .navbar ul li ul li {
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+header .navbar ul li ul li ul {
+    left: 200px;
+    top: 0;
+}
+
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul {
+    display: block;
+}
+
+#menu-bar {
+    display: none;
+}
+
+header label {
+    font-size: 20px;
+    color: #6b2e2e; 
+    cursor: pointer;
+    display: none;
+}
+.container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+header {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+footer {
+    background-color: #6b2e2e; 
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-logo img {
+    width: 250px;
+}
+
+.footer-links, .footer-social {
+    text-align: left;
+}
+
+.footer-links h4, .footer-social h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-links ul, .footer-social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li, .footer-social ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a, .footer-social ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.footer-links ul li a:hover, .footer-social ul li a:hover {
+    color: #f1f0eb; 
+}
+
+.footer-bottom {
+    border-top: 1px solid #f1f0eb;
+    margin-top: 20px;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.footer-bottom .back-to-top {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-bottom .back-to-top:hover {
+    color: #f7f6ef; 
+}
